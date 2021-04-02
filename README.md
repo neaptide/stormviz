@@ -16,7 +16,7 @@ Here is a screen image of the map and interface.
 
 ### Storm Detection and Tracking
 
-Storm tracks are determined and stored using the [stormTracking](https://github.com/ecjoliver/stormTracking) [2] algorithm by Eric Oliver.  This code automatically detects and tracks atmospheric storms (cyclones) and high-pressure centers (anticyclones) using a series of surface pressure maps. While the initial code used NCEP data, it is easily adapted to use ERA5 data and resolution. 
+Storm tracks are determined and stored using the [stormTracking](https://github.com/ecjoliver/stormTracking) [2] algorithm by Eric Oliver.  This code automatically detects and tracks atmospheric storms (cyclones) and high-pressure centers (anticyclones) using a series of surface pressure maps. While the initial code used NCEP data, it is easily adapted to use ERA5 data and resolution.  A sample storm track dataset (`storm_track_slp.npz`) is provided for testing `stormviz` following the steps to run the tool. 
 
 ### Get the code 
 
