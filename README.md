@@ -2,13 +2,13 @@
 Storm Visualization
 
 ### Overview
-The Storm Visualization Tool (stormviz) is a graphical tool to help see the variable paths of cyclonc storm tracks relative to atmospheric pressure fields and how these tracks evolve with time and space.  Combined with data layers of geopotential height and surface pressure, the tool helps provide understanding of the basic atmospheric dynamics associated with the storm tracks. 
+The Storm Visualization Tool (stormviz) is a graphical tool to help see the variable paths of cyclonic storm tracks relative to atmospheric pressure fields and how these tracks evolve with time and space.  Combined with data layers of geopotential height and pressure at mean sea level, the tool helps provide understanding of the basic atmospheric dynamics and structure associated with storm generation, duration, and termination. 
 
-The tool provides a map to view tracks with surface pressure highs and lows.  [ECMWF Reanalysis (ERA5)](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) [1] data of height of the geopotential surface (hgt), and mean sea-level pressure (msl) fields are displayed.  Currently, the extents of the map and data focus on North America and hence the atmospheric jets in the northern hemisphere.  These extents can be adjusted in code and data downloaded from ERA5 for other regions of the world.
+The tool provides a map to view tracks with surface pressure highs and lows.  [ECMWF Reanalysis (ERA5)](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) [1] data of height of the geopotential surface (hgt), and mean sea-level pressure (msl) fields are displayed.  Currently, the extents of the map and data focus on North America and hence the storms in the northern hemisphere.  These extents can be adjusted in code and data downloaded from ERA5 for other regions of the world.
 
 ### The Graphical Tool
 
-The main map shows the current storm positions (red dots) for the current date and time and their associated "detected" tracks (discussed below) in blue lines with blue dots for each time step beyhond the present. Also plotted are fields of msl with filled contours corresponding to the scale below the map and hgt (100-1000 hPa pressure level) for North America. By using the graphical interface, times can be selected to show (or "play") the 3-dimensional (3D), dynamic nature of the storm tracks along with changes in msl. Furthermore, the hgt levels can be selected to view changing geopotential conditions to better see the upper atmospheric influences on the storm generation, duration, and termination. 
+The main map shows the current storm positions (red dots) for the current date and time and their associated "detected" tracks (discussed below) in blue lines with blue dots for each time step beyhond the present. Also plotted are fields of msl with filled contours corresponding to the scale below the map and hgt (100-1000 hPa pressure level) for North America. By using the graphical interface, times can be selected to show (or "play") the 3-dimensional (3D), dynamic nature of the storm tracks along with changes in msl. Furthermore, the hgt levels can be selected to view the upper atmospheric structure and how far up in the atmosphere the storm may affect this structure. 
 
 Here is a screen image of the map and interface. 
 
