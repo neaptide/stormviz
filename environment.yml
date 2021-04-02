@@ -1,0 +1,10 @@
+name: test_stormviz
+channels:
+  - conda-forge
+dependencies:
+  - ipython
+  - jupyter
+  - numpy
+  - matplotlib
+  - metpy
+  - netCDF4
