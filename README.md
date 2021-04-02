@@ -14,7 +14,9 @@ Here is a screen image of the map and interface.
 
 ![Image of stormviz map](https://github.com/neaptide/stormviz/blob/main/images/stormviz_gui_map.png)
 
-### Storm Detection
+### Storm Detection and Tracking
+
+https://github.com/ecjoliver/stormTracking
 
 ### Get the code 
 
