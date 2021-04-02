@@ -16,7 +16,7 @@ Here is a screen image of the map and interface.
 
 ### Storm Detection and Tracking
 
-https://github.com/ecjoliver/stormTracking
+Storm tracks are determined and stored using the [stormTracking](https://github.com/ecjoliver/stormTracking) [2] algorithm by Eric Oliver.  This code automatically detects and tracks atmospheric storms (cyclones) and high-pressure centers (anticyclones) using a series of surface pressure maps. While the initial code used NCEP data, it is easily adapted to use ERA5 data and resolution. 
 
 ### Get the code 
 
@@ -94,3 +94,5 @@ The `stormviz` tool is based upon work supported by National Science Foundation 
 ### References
 
 [1] Copernicus Climate Change Service (C3S) (2017): ERA5: Fifth generation of ECMWF atmospheric reanalyses of the global climate . Copernicus Climate Change Service Climate Data Store (CDS), date of access. https://cds.climate.copernicus.eu/cdsapp#!/home
+
+[2] Oliver, E.: stormTracking, https://github.com/ecjoliver/stormTracking, @ecjoliver
