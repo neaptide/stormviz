@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/354110116.svg)](https://zenodo.org/badge/latestdoi/354110116)
+
 # stormviz
 Storm Visualization
 
